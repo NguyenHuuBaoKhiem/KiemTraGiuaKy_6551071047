@@ -46,3 +46,21 @@
     opacity: 0;
     visibility: hidden;
 }
+.nut{
+    display: flex;
+}
+
+.nut1{
+    flex: 0 0 15%;
+    text-align: center;
+}
+
+.submit{
+    background-color: red;
+    border-radius:30px ;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    border: 1px solid red;
+}

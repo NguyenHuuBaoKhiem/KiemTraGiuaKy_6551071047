@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
@@ -149,7 +150,41 @@
                         </div>
                         <div class="contact__form">
                             <h5>SEND MESSAGE</h5>
-                           <h2 style="color:brown">Làm câu 4 tại đây</h2>
+                           <form>
+                                <div>
+                                    <div><input type="text" name="name" id="name" placeholder="Name" required></div>
+                                    <div><input type="email" name="email" id="mail" placeholder="Email" required></div>
+                                    <div><input type="text" name="website" id="website" placeholder="Website" required></div>
+                                    <span>Gender:</span><br>
+                                    <div class="nut">
+                                        
+                                        <div class="nut1"><input type="radio" name="gender" id="Male"></div>
+                                        <div class="nut1"><input type="radio" name="gender" id="Female"></div>
+                                        <div class="nut1"><input type="radio" name="gender" id="Other"></div>
+                                    </div>
+                                    <div class="nut">
+                                        <div class="nut1">Male</div> 
+                                        <div class="nut1">Female</div>
+                                        <div class="nut1">Other</div>
+
+                                    </div>
+                                    <br>
+                                    <div>
+                                        Topic:
+                                        <select>
+                                            <option disabled selected>--select a topic--</option>
+                                            <option value="mot">Ao</option>
+                                            <option value="mot">Quan</option>
+                                            <option value="mot">Ca vat</option>
+                                            <option value="mot">Ao khoat</option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <div><textarea name="Message" placeholder="Message"></textarea></div>
+                                    <div><button class="submit">SEND MESSAGE</button></div>
+                                </div>
+                            </form>
+
                         </div>
                     </div>
                 </div>
