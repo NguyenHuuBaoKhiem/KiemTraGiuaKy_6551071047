@@ -1,0 +1,48 @@
+.headerC2 {
+    margin: auto;
+    display: flex;
+    width: 77%;
+    height: 80px;
+
+}
+
+.box {
+    flex: 0 0 25%;
+    display: flex;
+}
+
+.left {
+    flex: 0 0 20%;
+    margin: auto;
+}
+
+.right {
+    margin: auto;
+}
+
+.buttonC3 {
+    text-indent: 200px;
+}
+
+.hide {
+    display: block;
+    margin: auto;
+    background-color: rgb(172, 16, 16);
+    border: 2px solid black;
+    color: white;
+}
+
+.fade-element {
+    width: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+    opacity: 1;
+    visibility: visible;
+}
+
+.fade-out {
+    opacity: 0;
+    visibility: hidden;
+}
